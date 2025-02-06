@@ -5,6 +5,9 @@
 set -e
 
 # setup vivado 2024.1
+cat /opt/Xilinx/Vitis_HLS/2024.1/settings64.sh
+sed -i '5d' /opt/Xilinx/Vitis_HLS/2024.1/settings64.sh
+cat /opt/Xilinx/Vitis_HLS/2024.1/settings64.sh
 source /opt/Xilinx/Vitis_HLS/2024.1/settings64.sh
 
 # The Jupyter command to launch

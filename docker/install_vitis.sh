@@ -14,6 +14,8 @@ function main() {
     rm -rf FPGAs_AdaptiveSoCs_Unified_2024.1_0522_2023
     rm FPGAs_AdaptiveSoCs_Unified_2024.1_0522_2023.tar.gz
     rm /tmp/vitis_cfg.txt
+    rm -rf /opt/Xilinx/Vitis
+    rm -rf /opt/Xilinx/SharedData
     ls -lah /opt/Xilinx/
 
     # Install the pynq-z2 board files
